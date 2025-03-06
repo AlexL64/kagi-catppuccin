@@ -15,14 +15,21 @@ Note: I recommend setting the theme to "**Dark**" in Kagi for the [`Frappé`](ht
 
 ## Screenshots
 
-### [Latte](https://github.com/AlexL64/kagi-catppuccin/blob/main/themes/latte.css)
-![image](https://github.com/user-attachments/assets/4dac6393-99b0-45eb-b999-61c660389d21)
+<details>
+  <summary>🌻 Latte</summary>
+  <img src="https://github.com/user-attachments/assets/bb9b257f-9459-4d65-9ae1-c5352b53680a"/>
+</details>
+<details>
+  <summary>🪴 Frappé</summary>
+  <img src="https://github.com/user-attachments/assets/b4b5b454-76a7-4383-84ec-a048e9bfe24e"/>
+</details>
+<details>
+  <summary>🌺 Macchiato</summary>
+  <img src="https://github.com/user-attachments/assets/72219065-582d-43be-a02b-ecee60bbcdea"/>
+</details>
+<details>
+  <summary>🌿 Mocha</summary>
+  <img src="https://github.com/user-attachments/assets/e6e9895a-cb65-4a5f-b1e7-68a5486d5566"/>
+</details>
+</details>
 
-### [Frappé](https://github.com/AlexL64/kagi-catppuccin/blob/main/themes/frappe.css)
-![image](https://github.com/user-attachments/assets/a1ff1cb6-e539-4d2d-83f0-718046089634)
-
-### [Macchiato](https://github.com/AlexL64/kagi-catppuccin/blob/main/themes/macchiato.css)
-![image](https://github.com/user-attachments/assets/b3fe6ca5-fa2e-45ea-afef-66e259dfa249)
-
-### [Mocha](https://github.com/AlexL64/kagi-catppuccin/blob/main/themes/mocha.css)
-![image](https://github.com/user-attachments/assets/e0a4757a-2631-453e-b305-f1be0a475f94)
