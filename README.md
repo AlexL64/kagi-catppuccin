@@ -1,4 +1,8 @@
-# Catppuccin kagi themes
+<h2 align="center">
+  <img src="https://github.com/user-attachments/assets/bbda0f91-6098-43dd-b25a-ae828174ca64" width="100" alt="Logo"/>
+</h2>
+
+<h2 align="center">My Catppuccin themes for <a href="https://kagi.com/">Kagi</a></h2>
 
 Here are my Kagi themes based on the [Catppuchin](https://github.com/catppuccin/catppuccin) color palettes.
 
