@@ -1,0 +1,208 @@
+:root {
+    --rosewater: #f5e0dc;
+    --flamingo: #f2cdcd;
+    --pink: #f5c2e7;
+    --mauve: #cba6f7;
+    --red: #f38ba8;
+    --maroon: #eba0ac;
+    --peach: #fab387;
+    --yellow: #f9e2af;
+    --green: #a6e3a1;
+    --teal: #94e2d5;
+    --sky: #89dceb;
+    --sapphire: #74c7ec;
+    --blue: #89b4fa;
+    --lavender: #b4befe;
+    --text: #cdd6f4;
+    --subtext1: #bac2de;
+    --subtext0: #a6adc8;
+    --overlay2: #9399b2;
+    --overlay1: #7f849c;
+    --overlay0: #6c7086;
+    --surface2: #585b70;
+    --surface1: #45475a;
+    --surface0: #313244;
+    --base: #1e1e2e;
+    --mantle: #181825;
+    --crust: #11111b;
+
+    --graphite: var(--mantle);
+    --graphite-25: var(--text);
+    --graphite-50: var(--text);
+    --graphite-70: var(--text);
+    --graphite-100: var(--subtext1);
+    --graphite-200: var(--subtext0);
+    --graphite-300: var(--overlay2);
+    --graphite-400: var(--overlay1);
+    --graphite-500: var(--overlay0);
+    --graphite-600: var(--surface2);
+    --graphite-700: var(--surface1);
+    --graphite-800: var(--surface0);
+    --graphite-850: var(--surface0);
+    --graphite-900: var(--base);
+    --graphite-950: var(--base);
+    --graphite-1000: var(--mantle);
+
+    --app-bg: var(--graphite-950);
+    --app-frame-bg: var(--app-bg);
+    --bottom-bar-bg: var(--graphite);
+    --landing-bg: var(--app-bg);
+    --app-text: var(--text);
+    --kagi-accent: var(--graphite-850);
+    --kagi-graphite-s: var(--graphite);
+    --secondary: var(--graphite);
+    --primary: var(--graphite-100);
+    --primary-25: var(--graphite-900);
+    --primary-50: var(--graphite-900);
+    --primary-70: var(--graphite-800);
+    --primary-100: var(--graphite-900);
+    --primary-200: var(--graphite-800);
+    --primary-300: var(--graphite-600);
+    --primary-400: var(--graphite-400);
+    --primary-500: var(--graphite-500);
+    --primary-600: var(--graphite-300);
+    --primary-700: var(--graphite-300);
+    --primary-800: var(--graphite-200);
+    --primary-850: var(--graphite-200);
+    --primary-900: var(--graphite-200);
+    --primary-950: var(--graphite-150);
+    --primary-1000: var(--graphite-100);
+    --color-search-input: var(--graphite-800);
+    --color-search-input-border: var(--graphite-600);
+    --primary-hover: var(--mauve);
+    --primary-hover-hover: var(--mauve);
+    --primary-visited: var(--mauve);
+    --input-bg: var(--graphite-800);
+    --resultsummary-highlight_text: var(--secondary);
+    --quick-search-icon: var(--graphite);
+    --k-tooltip-bg: var(--primary);
+    --k-tooltip-text: var(--secondary);
+    --dd-hover-bg: var(--kagi-accent);
+    --dd-list-input-bg: var(--graphite-800);
+    --not-found-bubble-bg: var(--secondary);
+    --app-sidebar-link: var(--primary-700);
+    --app-sidebar-nav-item-icon_hover: var(--primary);
+    --ranked-box-icon-normal-bg: var(--ranked-box-wrapper-bg);
+    --site_info_bg: var(--graphite-900);
+    --site_info_bottom_bg: var(--app-bg);
+    --btn-group-bg: var(--input-bg);
+    --result-item-title-border: #00000000;
+    --result-item-title-border_hover: var(--purple-400);
+    --result-rank-icon-stroke_promoted: var(--app-bg);
+    --search-result-content-text: var(--primary-600);
+    --search-result-url-link: var(--primary-900);
+    --search-result-title: var(--blue);
+    --search-result-date-bg: var(--graphite-800);
+    --search-result-date-new-bg: var(--graphite-600);
+    --search-result-date-new: var(--graphite-200);
+    --inline-header-title: var(--graphite-300);
+    --inline-widget-bg: var(--graphite-900);
+    --inline-widget-hover-bg: var(--graphite-800);
+    --inline-header-border: var(--graphite-600);
+    --inline-domain-tag-bg: var(--graphite-800);
+    --related-item-bg: var(--graphite-850);
+    --related-item-hover-bg: var(--graphite-700);
+    --video-item-bg: var(--graphite-900);
+    --m_sri_gap_color: var(--color-search-input);
+    --billing-svg-bg-premium_1: var(--inline-widget-bg);
+
+    --auto-sugg-bg_hover: var(--surface1);
+    --nav_n_se_line: var(--yellow);
+    --nav_n_im_line: var(--blue);
+    --nav_n_vi_line: var(--red);
+    --nav_n_ne_line: var(--mauve);
+    --nav_n_ma_line: var(--green);
+    --domain-rank-icon-color-trackers: var(--peach);
+    --domain-rank-icon-color-trackers-hover: var(--peach);
+    --domain-rank-icon-color-scam: var(--red);
+    --domain-rank-icon-color-scam: var(--red);
+
+    --result-item-title_hover: var(--blue);
+    --result-item-title-border_hover: var(--blue);
+    --result-item-title_active_hover: var(--mauve);
+    --result-item-title-border_active_hover: var(--mauve);
+}
+
+:focus-visible {
+    outline: 2px solid var(--mauve);
+}
+
+/* Search */
+.search-form .search-input-container {
+    border-radius: 16px;
+    padding-inline-end: 0.5rem;
+}
+
+._0_auto-sug .search-form .search-input-container {
+    border-radius: 16px 16px 0px 0px;
+}
+
+.auto_suggestions {
+    border-radius: 0px 0px 16px 16px;
+}
+
+.search_area {
+    outline: none;
+}
+
+/* Links */
+.__srgi-title a:hover,
+.__sri-title .__sri_title_link:hover {
+    border-bottom: 1px solid var(--result-item-title-border_hover);
+    color: var(--result-item-title_hover);
+}
+
+.__srgi-title a:visited:hover,
+.__sri-title .__sri_title_link:visited:hover {
+    border-bottom: 1px solid var(--result-item-title-border_active_hover);
+    color: var(--result-item-title_active_hover);
+}
+
+/* Time */
+
+.__sri-time, .__sri-time.--new {
+    background-color: unset;
+    color: var(--app-text);
+    padding: 0;
+}
+
+/* Wikipedia Results */
+
+.wikipediaResult a:hover {
+    border-bottom: 1px solid var(--blue);
+    color: var(--blue);
+}
+
+.wikipediaResult a:visited:hover {
+    border-bottom: 1px solid var(--mauve);
+    color: var(--mauve);
+}
+
+.wikipediaResult .wiki-title a:hover {
+    border-bottom: 1px solid var(--blue);
+    color: var(--blue);
+}
+
+.wikipediaResult .wiki-image a {
+    border-bottom: unset;
+}
+
+/* Buttons */
+
+.btn.--primary {
+    border-radius: 16px;
+}
+
+/* Trackers */
+
+.d-info-box-title-header {
+    background: var(--green);
+}
+
+.d-info-box-title-header.--trackers {
+    background: var(--peach);
+}
+
+.rakned-box-close {
+    color: var(--mantle);
+}
