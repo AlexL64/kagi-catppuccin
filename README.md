@@ -32,7 +32,7 @@ Note: I recommend setting the theme to "**Dark**" in Kagi for the [`Frappé`](ht
 </details>
 <details>
   <summary>🌿 Mocha</summary>
-  <img src="https://github.com/user-attachments/assets/e6e9895a-cb65-4a5f-b1e7-68a5486d5566"/>
+  <img src="https://github.com/user-attachments/assets/54225d24-90ad-488e-ab5f-db291d30d99e"/>
 </details>
 </details>
 
