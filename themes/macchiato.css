@@ -131,6 +131,7 @@
 .search-form .search-input-container {
     border-radius: 16px;
     padding-inline-end: 0.5rem;
+    background: var(--graphite-800);
 }
 
 ._0_auto-sug .search-form .search-input-container {
@@ -143,6 +144,18 @@
 
 .search_area {
     outline: none;
+}
+
+/* Results */
+
+@media (max-width: 640px) {
+    .inline-content+.search-result, .inline-content+.sri-group {
+        border-top: 10px solid var(--graphite);
+    }
+
+    .search-result, .sri-group {
+        border-bottom: 10px solid var(--graphite);
+    }
 }
 
 /* Links */
