@@ -146,6 +146,17 @@
     outline: none;
 }
 
+/* Toogle Switch */
+
+.k_ui_toggle_switch.--enabled .k_ui_toggle_switch_bar {
+    background: var(--mauve);
+    box-shadow: 0 0 0 1px var(--mauve);
+}
+
+.k_ui_toggle_switch.--enabled .k_ui_toggle_switch_bar:after {
+    border: 1px solid var(--mauve);
+}
+
 /* Results */
 
 @media (max-width: 640px) {
