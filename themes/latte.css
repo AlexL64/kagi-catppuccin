@@ -37,9 +37,9 @@
     --graphite-500: var(--overlay0);
     --graphite-600: var(--surface2);
     --graphite-700: var(--surface1);
-    --graphite-800: var(--surface0);
+    --graphite-800: var(--surface1);
     --graphite-850: var(--surface0);
-    --graphite-900: var(--base);
+    --graphite-900: var(--surface0);
     --graphite-950: var(--base);
     --graphite-1000: var(--mantle);
 
@@ -188,6 +188,13 @@
     background-color: unset;
     color: var(--app-text);
     padding: 0;
+}
+
+/* Widgets */
+
+.widgetContent .widgetItems {
+    border-radius: 12px;
+    overflow: hidden;
 }
 
 /* Wikipedia Results */
