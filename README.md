@@ -5,10 +5,6 @@
 
 Here are my Kagi themes based on the [Catppuchin](https://github.com/catppuccin/catppuccin) color palettes.
 
-The themes are still a work in progress.
-
-As I am still trying out Kagi, I can't guarantee that this repository will be updated.
-
 # Installation
 
 1. Copy one of the themes from the [`themes/`](https://github.com/AlexL64/kagi-catppuccin/blob/main/themes/) folder.
